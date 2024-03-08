@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsivo da Lelet</title>
+    
+    <style>
+    
+        .principal{
+            flex-direction: row;
+            justify-content: space-around;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .amarelo{
+            display: flex;
+            background-color: rgb(233, 233, 48);
+            border: 5px solid rgb(168, 157, 6);
+            padding: 10px;
+            width: 200px;
+            height: 200px;
+            justify-content: center;
+            margin: 10px;
+            font-size: 20px;
+            align-items: center;
+            min-width: 20vw;
+            min-height: 20vh;
+            transition: 0.5s;
+            border-radius: 20px; /* deixa a borda redondinha*/
+        }
+        .amarelo:hover{
+            border-radius: 70px; /* cria um movimento quando passa encima*/
+            
+        }
+
+        .vermelho{
+            display: flex;
+            background-color: rgb(235, 32, 32);
+            border: 5px solid rgb(114, 11, 11);
+            padding:10px;
+            width: 200px;
+            height: 200px;
+            justify-content: center;
+            margin:10px;
+            font-size: 20px;
+            align-items: center;
+            min-width: 20vw;
+            min-height: 20vh;
+            transition: 0.5s;
+            border-radius: 20px;
+        }
+        .vermelho:hover{
+            border-radius: 70px;
+        }
+        .verde{
+            display: flex;
+            background-color: rgb(75, 219, 75);
+            border: 5px solid rgb(22, 75, 11);
+            padding:10px;
+            width: 200px;
+            height: 200px;
+            justify-content: center;
+            margin:10px;
+            font-size: 20px;
+            align-items: center;
+            min-width: 20vw;
+            min-height: 20vh;
+            transition: 0.5s;
+            border-radius: 20px;
+        }
+        .verde:hover{
+            border-radius: 70px;
+
+        }
+        .azul{
+            display: flex;
+            background-color: rgb(54, 54, 236);
+            border: 5px solid rgb(7, 25, 122);
+            padding:10px;
+            width: 200px;
+            height: 200px;
+            justify-content: center;
+            align-items: center;
+            margin:10px;
+            font-size: 20px;
+            align-items: center;
+            min-width: 20vw;
+            min-height: 20vh;
+            transition: 0.5s;
+            border-radius:20px;
+        }
+        .azul:hover{
+            border-radius: 70px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="principal">
+
+     <div class="amarelo">
+         <apan>Amarelo</apan>
+     </div>
+
+     <div class="vermelho">
+        <apan>Vermelho</apan>
+     </div>
+
+     <div class="verde">
+        <apan>Verde</apan>
+     </div>
+
+     <div class="azul">
+        <apan>Azul</apan>
+     </div>
+
+    </div>
+
+</body>
+</html>
